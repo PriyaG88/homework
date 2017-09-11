@@ -9926,7 +9926,6 @@ var selectCurrency = function selectCurrency(baseCurrency, rates) {
     rates: rates
   };
 };
-window.selectCurrency = selectCurrency;
 
 exports.default = selectCurrency;
 
@@ -9991,8 +9990,6 @@ var _store = __webpack_require__(83);
 var _store2 = _interopRequireDefault(_store);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-window.store = _store2.default;
 
 document.addEventListener("DOMContentLoaded", function () {
   _reactDom2.default.render(_react2.default.createElement(_widget2.default, { store: _store2.default }), document.getElementById('root'));
@@ -22624,7 +22621,6 @@ module.exports = traverseAllChildren;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
 var initialState = {
   baseCurrency: "Please select",
   rates: {}

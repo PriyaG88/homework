@@ -5,6 +5,5 @@ const selectCurrency = (baseCurrency, rates) => {
     rates: rates
   };
 };
-window.selectCurrency = selectCurrency;
 
 export default selectCurrency;
